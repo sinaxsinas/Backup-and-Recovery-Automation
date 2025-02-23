@@ -1,0 +1,5 @@
+#!/bin/bash 
+backup_file="/path/to/backup.tar.gz" 
+restore_dir="/path/to/restore" 
+tar -xzf $backup_file -C $restore_dir 
+echo "Restore completed." 
